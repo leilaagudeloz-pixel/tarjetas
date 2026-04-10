@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Float vs Flexbox</title>
+  <link rel="stylesheet" href="tarjeta_float.css">
+  <link rel="stylesheet" href="tarjeta_flex.css">
+  <style>
+    body {
+      padding: 40px;
+      font-family: Arial, sans-serif;
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+    }
+
+    h3 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenedor">
+
+    <div>
+      <h3>Con Float</h3>
+      <div class="card-float">
+        <div class="imagen">Imagen</div>
+        <div class="info">
+          <h2>Zapatos Deportivos</h2>
+          <p class="descripcion">Cómodos y ligeros, ideales para correr.</p>
+          <p class="precio">$49.99</p>
+        </div>
+        <button class="btn">Comprar</button>
+      </div>
+    </div>
+
+    <div>
+      <h3>Con Flexbox</h3>
+      <div class="card-flex">
+        <div class="imagen">Imagen</div>
+        <div class="info">
+          <h2>Zapatos Deportivos</h2>
+          <p class="descripcion">Cómodos y ligeros, ideales para correr.</p>
+          <p class="precio">$49.99</p>
+        </div>
+        <button class="btn">Comprar</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
